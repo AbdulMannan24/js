@@ -10,4 +10,20 @@
  city = "Hyderabad"
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, city]); 
-//checking my git push  
+
+// Datatypes 
+let name = "Abdul";
+let age = 5;
+let value = true;
+
+// primitive datatypes
+// number
+// bigint
+// string
+// boolean
+// null: this is standalone value, null is an object
+// undefined : no value initialized
+// symbol : used for unqiueness
+// check for NaN
+
+// ** use typeof operator to get the datatype
