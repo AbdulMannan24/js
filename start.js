@@ -32,8 +32,8 @@ let value = true;
 
 //let score = "33"; 
 //let score = "this is maths";
-let score = ""
-console.log(Boolean(score));
+// let score = ""
+// console.log(Boolean(score));
 
 // Number(), Boolean(), String(), 
 // "33" => 33
@@ -112,3 +112,27 @@ Js is a dynamiccally types language, use "typeof" to get the return type of any 
 // this symbol datatype gives uniqueness to any value
 // so better for using it in projects for userid or something 
 
+// Stack and heap memory in js
+
+/*
+        Stack memory: for primitive data types, you always get a copy of the
+        value not the address of the variable 
+        if we do 
+        let a = 10;
+        let b = a;
+        then 
+        b = 20
+        the value of a is still 20 as b is just a copy of a, not the reference
+
+        Heap memory: The reference memory uses the heap memory
+        in a object 
+        let ob1 = {
+            name: "tomato";
+        }
+        let ob2 = ob1; now the ob2 is using the same memory of ob1
+        that means if you change the value through any ob1 or ob2 it will reflect 
+        in both the objects, names are different but the memory is same 
+        ob2.name = "potato";
+        then ob1.name is also changed to potato
+        
+*/
