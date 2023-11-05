@@ -134,5 +134,9 @@ Js is a dynamiccally types language, use "typeof" to get the return type of any 
         in both the objects, names are different but the memory is same 
         ob2.name = "potato";
         then ob1.name is also changed to potato
-        
+
 */
+
+
+// Strings
+
