@@ -1,9 +1,9 @@
 // starting js with chai aur javascript
 // Chai and code series 
 // sheryians coding school
-// Coding Blocks
+// scaler 
 
- //variables
+//variables
 // const accountId = 100;
 // let accountEmail = "abcd@gmail.com"
 // var accountPassword = "12345"
@@ -83,11 +83,11 @@ Js is a dynamiccally types language, use "typeof" to get the return type of any 
     Primitive datatyes:
     String
     number // all floats, everything is number only
-        boolean
-        null
-        undefined
-        symbol
-        bigint
+    boolean
+    null
+    undefined
+    symbol
+    bigint
 
     Reference (non primitive):
     Array :
@@ -139,4 +139,15 @@ Js is a dynamiccally types language, use "typeof" to get the return type of any 
 
 
 // Strings
+let a = "string example"
+let b = new String("other way of creating string")
+// there are a lot of string methods predefined in js 
+/*
+        substring - this ignores the negative index 
+        slice - this works on negative indexes also, means it starts from the end side 
+        trim - this trims out the extra spaces in the given string        
+        replace - 
+        includes - 
 
+
+*/
