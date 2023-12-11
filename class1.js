@@ -148,17 +148,59 @@ JSON.stringify() -> converts a js object into a stringified
 */
 
 /*
-Objects
+OBJECTS
 
 */
 
+/*
+LOOPS
+*/
 
+/*
+FUNCTIONS
+*/
 
+/*
+CALLBACKS
+-> callbacks are functions passed as a parameter just like a
+variable
+-> helps improve code quality
+-> follows DRY logic
 
+function square(n) {
+    return n * n;
+}
 
+function cube(n) {
+    return n * n * n;
+}
 
+function sum(a, b, callback) {
+    let ans = callback(a) + callback(b);
+    return ans;
+} 
 
+sum(a, b, square); here we are sending the function name as 
+sum(a, b, cube); parameter so the same logic can be implemented easily
+*/
 
+/*
+ANONYMOUS FUNCTION
+*/
+
+/*
+SYNCHRONOUS
+-> one thing at a time is synchronous
+-> in a sequential order
+
+ASYNCHRONOUS
+-> opposite of synchronous
+-> multiple things context switching
+-> Happens in parts
+-> gives the powers of multi tasking to js 
+-> saves time and resource
+
+*/
 
 
 
