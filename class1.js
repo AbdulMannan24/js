@@ -199,7 +199,11 @@ ASYNCHRONOUS
 -> Happens in parts
 -> gives the powers of multi tasking to js 
 -> saves time and resource
-
+Four main components involved in async js are :
+    -> Call Stack
+    -> Web Apis
+    -> Callback Queue
+    -> Event loop
 */
 
 
