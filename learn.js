@@ -1,4 +1,4 @@
-console.log("hello world");
+//console.log("hello world");
 //console.log(a);
 // this line is not running but the upper line is running due to interpreted language
 
@@ -8,27 +8,27 @@ console.log("hello world");
 // numbers strings booleans
 
 
-function greet(firstName, lastName) {
-    return `Hello, ${firstName} ${lastName}`;
-}
+// function greet(firstName, lastName) {
+//     return `Hello, ${firstName} ${lastName}`;
+// }
 
-console.log(greet("abcd","efg"));
-let a = "tata"; // it takes this as true, and "" as false, but if you compare a == true, then it gives false even when the string is not empty
-if (a) {
-    console.log("this works")
-} else {
-    console.log("this is typical");
-}
+// console.log(greet("abcd","efg"));
+// let a = "tata"; // it takes this as true, and "" as false, but if you compare a == true, then it gives false even when the string is not empty
+// if (a) {
+//     console.log("this works")
+// } else {
+//     console.log("this is typical");
+// }
 
 // if, else 
 // for loop
 // Arrays, objects
 
-let obj = {
-    first: "Abdul",
-    last: "Mannan",
-    gender: "male"
-};
+// let obj = {
+//     first: "Abdul",
+//     last: "Mannan",
+//     gender: "male"
+// };
 
 let objArray = [
     {first: "Abdul", last: "Mannan", gender: "male"}, 
@@ -55,7 +55,7 @@ function displayResultPassive(data) {
 }
 
 // You are only allowed to call one function after this
-// How will you displayResult of a sum
+// How will you displayResult of a sum that is where callbacks comes in use 
 
 /*
 string 
@@ -219,10 +219,31 @@ under the hood we use only the functions provided by the js
 
 */
 
+/*
+    Arrow Functions
+    -> these are shorthand functions, very cleaner and easy to right for callbacks, and many more
+    syntax: 
+        ()=> {}
+  
+*/
 
 
+/*  Map Function in Arrays(in built)
+    ->this function performs any specific action/operation on a particular array and return a new Array
+    -> let us square an entire array
+    input -> [1, 2, 3, 4]
+    let a = input.map(square); and define a square function but there is a more better way 
+    let a = input.map(element => element * element);
+*/
 
-
+/*
+    FILTER IN ARRAY
+    -> the filter function returns a new array which contains only the elements which 
+    satisfy the condition, filtering based on conditions
+    const input = [1,2,3,4];
+    input.filter(element => element %2 == 0);// you can pass a function aslo like filter(even) but
+    this syntax is more better 
+*/
 
 
 
