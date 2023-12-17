@@ -206,9 +206,18 @@ Four main components involved in async js are :
     -> Event loop
 */
 
+/*
+PROMISES
+-> this is a better way of writing asynchronous code in js 
+under the hood we use only the functions provided by the js 
+-> promises are used to get rid of Callbacks 
 
+*/
 
+/*
+******* CALLBACKS ********* PROMISES ************** ASYNC/AWAIT
 
+*/
 
 
 
